@@ -10,7 +10,7 @@ namespace EmailTemplateUI.Controllers
 {
     public class TemplateController : Controller
     {
-        public static Template _template = new Template();
+        public static Template _template;
         private readonly ITemplatesDB _dbContext;
         public TemplateController(ITemplatesDB dbContext)
         {

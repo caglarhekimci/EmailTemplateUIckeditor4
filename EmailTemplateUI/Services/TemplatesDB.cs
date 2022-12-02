@@ -9,7 +9,7 @@ namespace EmailTemplateUI.Services
         // TODO : CARRY TO APPSETTINGS
         SqlConnection sqlCon = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EmailTemplates;Integrated Security=True");
         SqlCommand sqlCom = null;
-        Template _template = new Template();
+        Template _template;
 
         public Template Get(int id)
         {

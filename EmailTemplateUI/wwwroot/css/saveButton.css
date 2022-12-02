@@ -1,0 +1,49 @@
+﻿
+.buttonSave {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #52BE80;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 0px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.buttonSave span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.buttonSave span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.buttonSave:hover span {
+    padding-right: 25px;
+}
+
+.buttonSave:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.arrowDown {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}

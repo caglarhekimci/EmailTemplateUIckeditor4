@@ -241,6 +241,7 @@ namespace EmailTemplateUI.Services
             try
             {
                 sqlCon.Open();
+                // TODO : REACH SQL WITH DIFFERENT WAY
                 string sql = "SELECT * FROM dbo.templates WHERE id = " + id;
                 sqlCom = new SqlCommand(sql, sqlCon);
                 SqlDataReader reader = sqlCom.ExecuteReader();

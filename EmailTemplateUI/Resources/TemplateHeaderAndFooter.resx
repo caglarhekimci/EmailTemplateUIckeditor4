@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="templateFooter" xml:space="preserve">
+    <value>"&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/div&gt;&lt;/td&gt; &lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt; &lt;/td&gt;&lt;/tr&gt;&lt;tr id=""section_3"" class=""flexible-section"" data-columns=""1""&gt;&lt;td width=""100%"" class=""blk_container bmeHolder"" name=""bmePreFooter"" valign=""top"" align=""center"" bgcolor=""#ffffff"" style=""background-color: rgb(255, 255, 255);   ""&gt;&lt;div id=""dv_9"" class=""blk_wrapper"" style=""""&gt;    
+            &lt;table cellspacing=""0"" cellpadding=""0"" border=""0"" name=""blk_divider"" width=""600"" class=""blk""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style=""padding-top:10px; padding-bottom:10px;padding-left:20px;padding-right:20px;"" class=""tblCellMain""&gt;    
+            &lt;table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"" style=""border-top: 1px solid rgb(225, 225, 225); min-width: 1px;"" class=""tblLine""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;span&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/div&gt;
+            
+            &lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr id=""section_4"" class=""flexible-section"" data-columns=""1"" data-section-type=""bmeFooter""&gt;&lt;td width=""100%"" class=""blk_container bmeHolder"" name=""bmeFooter"" valign=""top"" align=""center"" bgcolor=""#e6e6e8"" style=""background-color: rgb(230, 230, 232); color: rgb(102, 102, 102);   ""&gt;&lt;div id=""dv_7"" class=""blk_wrapper"" style=""""&gt;    
+            &lt;table width=""600"" cellspacing=""0"" cellpadding=""0"" border=""0"" class=""blk"" name=""blk_text""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;    
+            &lt;table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""100%"" class=""bmeContainerRow""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=""tdPart"" valign=""top"" align=""center""&gt;    
+            &lt;table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" name=""tblText"" class=""tblText"" style=""float:left; background-color:transparent;"" align=""left""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign=""top"" align=""left"" name=""tblCell"" class=""tblCell"" style=""padding: 10px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 400; color: rgb(56, 56, 56); text-align: left; word-break: break-word;""&gt;&lt;div style=""line-height: 150%;""&gt;
+                
+            &lt;table border=""0"" cellpadding=""0"" cellspacing=""0"" width=""100%""&gt;
+            &lt;tbody&gt;
+            &lt;tr&gt;
+            &lt;td align=""left""&gt;&lt;span style=""font-size: 12px; line-height: 150%;""&gt;&lt;a href=""https://clt.benchmarkurl.com/c/l?u=E9C0CE1&amp;amp;e=1548150&amp;amp;c=170BE2&amp;amp;t=0&amp;amp;email=4o2zQqfLDzo6vPNdpl7EN2ri%2BZ%2B9qN7SlQCqSmrsXQ3ClviSQtnhpzqCs0UbU5Lc&amp;amp;seq=1"" target=""_blank""&gt;View this email in your browser&lt;/a&gt;    
+            &lt;br&gt;You are receiving this email because of your relationship with Redmill Solutions. This message was sent to &lt;strong&gt;[caglarhekimci@gmail.com]&lt;/strong&gt; by &lt;strong&gt;[gathererservice@redmillsolutions.com]&lt;/strong&gt;&lt;/span&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/tbody&gt;
+                
+            &lt;/table&gt;
+            &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/div&gt;&lt;div id=""dv_8"" class=""blk_wrapper"" style=""""&gt;    
+            &lt;table width=""600"" cellspacing=""0"" cellpadding=""0"" border=""0"" class=""blk"" name=""blk_text""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;    
+            &lt;table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""100%"" class=""bmeContainerRow""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th class=""tdPart"" valign=""top"" align=""center""&gt;    
+            &lt;table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""600"" name=""tblText"" class=""tblText"" style=""float:left; background-color:transparent;"" align=""left""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign=""top"" align=""left"" name=""tblCell"" class=""tblCell"" style=""padding: 0px 20px; font-family: Arial, Helvetica, sans-serif; font-size: 14px; font-weight: 400; color: rgb(56, 56, 56); text-align: left; word-break: break-word;""&gt;&lt;div style=""line-height: 150%;""&gt;
+            &lt;p style=""margin-top: 0px; margin-bottom: 0px;""&gt;&lt;span style=""font-size: 11px; line-height: 150%;""&gt;&lt;u&gt;Statement of Confidentiality&lt;/u&gt;&lt;/span&gt;&lt;/p&gt;
+            &lt;p style=""margin-top: 0px; margin-bottom: 0px;""&gt;&lt;span style=""font-size: 11px; line-height: 150%;""&gt;This email and attachments may contain information that is confidential, legally privileged or otherwise protected &amp;nbsp;from disclosure. This transmission is sent in trust, for the sole purpose of delivery to the intended recipient. If you have received this email in error, you are not entitled to copy, disclose, distribute, print, or rely on this email in any way. If you are not the intended recipient, please immediately notify the sender by reply e-mail&amp;nbsp;or phone&amp;nbsp;and&amp;nbsp;delete this email and its attachments (if any) from your system. Redmill Solutions Limited is a private limited company, registered in England and Wales, with the registration number 07193163 and its registered office located at &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+            &lt;p style=""margin-top: 0px; margin-bottom: 0px;""&gt;&lt;span style=""font-size: 11px; line-height: 150%;""&gt;Calleo House, 49 Theobald Street, Borehamwood, WD6 4RT.&lt;/span&gt;&lt;/p&gt;
+            &lt;p style=""margin-top: 0px; margin-bottom: 0px;""&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;p style=""margin-top: 0px; margin-bottom: 0px;""&gt;&amp;nbsp;&lt;/p&gt;
+            &lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/div&gt;&lt;div id=""dv_10"" class=""blk_wrapper"" style=""""&gt;     
+            &lt;table width=""600"" cellspacing=""0"" cellpadding=""0"" border=""0"" class=""blk"" name=""blk_footer"" style=""""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td name=""tblCell"" class=""tblCell"" style=""padding: 20px; word-break: break-word;"" valign=""top"" align=""left""&gt;    
+            &lt;table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""100%""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td name=""bmeBadgeText"" style=""text-align:left; word-break: break-word;"" align=""left""&gt;&lt;span id=""spnFooterText"" style=""font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; line-height: 140%;""&gt;    
+            &lt;br&gt; 
+            
+            
+            
+            
+            &lt;/span&gt;    
+            &lt;br&gt;    
+            &lt;br&gt;&lt;span style=""font-family: Arial, Helvetica, sans-serif; font-weight: normal; font-size: 11px; line-height: 140%;""&gt;&lt;a href=""https://clt.benchmarkurl.com/c/su?e=1548150&amp;amp;c=170BE2&amp;amp;email=4o2zQqfLDzo6vPNdpl7EN2ri%2BZ%2B9qN7SlQCqSmrsXQ3ClviSQtnhpzqCs0UbU5Lc&amp;amp;relid="" style=""color:inherit;text-decoration:underline;""&gt;Update Profile/Email Address&lt;/a&gt;     
+            &lt;br&gt;&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td name=""bmeBadgeImage"" style=""text-align: left; padding-top: 20px; word-break: break-word;"" align=""left""&gt;&lt;a href=""https://www.benchmarkemail.com?p=500289"" target=""""&gt;&lt;img src=""https://www.benchmarkemail.com/images/web4/misc/emailfooter/opt9.png"" border=""0""&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt; &lt;/tbody&gt;    
+            &lt;/table&gt; &lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+            &lt;/table&gt;    
+                
+                    
+                    &lt;/div&gt;
+                &lt;/form&gt;
+                
+            
+            &lt;div id=""highlighter--hover-tools"" style=""display: none;""&gt;
+                &lt;div id=""highlighter--hover-tools--container""&gt;
+                    &lt;div class=""highlighter--icon highlighter--icon-copy"" title=""Copy""&gt;&lt;/div&gt;
+                    &lt;div class=""highlighter--icon highlighter--icon-change-color"" title=""Change Color""&gt;&lt;/div&gt;
+                    &lt;div class=""highlighter--icon highlighter--icon-delete"" title=""Delete""&gt;&lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;&lt;/body&gt;&lt;/html&gt;"</value>
+  </data>
+  <data name="templateHeader" xml:space="preserve">
+    <value>"&lt;html xmlns=""http://www.w3.org/1999/xhtml""&gt;&lt;head&gt;&lt;meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8""&gt;
+    &lt;meta name=""googlebot"" content=""noindex""&gt;
+    
+    &lt;title&gt;[Subject]&lt;/title&gt;
+    &lt;link rel=""shortcut icon"" href=""favicon.ico""&gt;
+    
+    &lt;style type=""text/css""&gt;
+    table[name='blk_permission'], table[name='blk_footer'] {{display:none;}}
+    &lt;/style&gt;
+    &lt;/head&gt;
+
+    &lt;body topmargin=""0"" leftmargin=""0"" marginheight=""0"" marginleft=""0"" style=""height: 100% !important; margin: 0; padding: 0; width: 100% !important;min-width: 100%;""&gt;     
+        
+        &lt;link rel=""stylesheet"" href=""/style/dhtmlwindow.css"" type=""text/css""&gt;
+        &lt;script type=""text/javascript"" src=""/script/dhtmlwindow.js""&gt;
+        /***********************************************
+        * DHTML Window Widget- © Dynamic Drive (www.dynamicdrive.com)
+        * This notice must stay intact for legal use.
+        * Visit www.dynamicdrive.com for full source code
+        ***********************************************/
+        &lt;/script&gt;&lt;div id=""dhtmlwindowholder""&gt;&lt;span style=""display:none""&gt;.&lt;/span&gt;&lt;/div&gt;
+        &lt;link rel=""stylesheet"" href=""/style/modal.css"" type=""text/css""&gt;
+        &lt;script type=""text/javascript"" src=""/script/modal.js""&gt;&lt;/script&gt;&lt;div id=""interVeil""&gt;&lt;/div&gt;
+        &lt;script type=""text/javascript""&gt;
+            function show_popup(popup_name,popup_url,popup_title,width,height)
+            {{
+                var widthpx = width +  ""px"";
+                var heightpx = height +  ""px"";
+                emailwindow = dhtmlmodal.open(popup_name , 'iframe', popup_url , popup_title , 'width=' + widthpx + ',height='+ heightpx + ',center=1,resize=0,scrolling=1')					
+            }}
+            
+            function show_modal(popup_name,popup_url,popup_title,width,height)
+            {{
+                var widthpx = width +  ""px"";
+                var heightpx = height +  ""px"";
+                emailwindow = dhtmlmodal.open(popup_name , 'iframe', popup_url , popup_title , 'width=' + widthpx + ',height='+ heightpx + ',modal=1,center=1,resize=0,scrolling=1')			
+                
+            }}
+            
+            var popUpWin=0;
+            function popUpWindow(URLStr,PopUpName, width, height)
+            {{
+                if(popUpWin) {{ if(!popUpWin.closed) popUpWin.close();}}
+                var left = (screen.width - width) / 2;
+                var top = (screen.height - height) / 2;
+                popUpWin = open(URLStr, PopUpName,	'toolbar=0,location=0,directories=0,status=0,menub	ar=0,scrollbar=0,resizable=0,copyhistory=yes,width='+width+',height='+height+',left='+left+', 	top='+top+',screenX='+left+',screenY='+top+'');
+            }}
+            
+            //onClick=""javascript:show_popup('id','htmlfile','title', w, h); return(false);""	
+        &lt;/script&gt;
+            
+            &lt;form method=""post"" action=""/E9C066C"" id=""form1""&gt;
+        
+        &lt;div class=""aspNetHidden""&gt;
+        
+            &lt;input type=""hidden"" name=""__VIEWSTATEGENERATOR"" id=""__VIEWSTATEGENERATOR"" value=""0E221FC3""&gt;
+        &lt;/div&gt;
+                &lt;div align=""center""&gt;
+                    
+            
+            
+        &lt;meta content=""width=device-width, initial-scale=1.0"" name=""viewport""&gt;    
+        &lt;style type=""text/css""&gt;    
+        /*** BMEMBF Start ***/    
+        /* CMS V4 Editor Test */    
+        [name=bmeMainBody]{{min-height:1000px;}}    
+        @media only screen and (max-width: 480px){{table.blk, table.tblText, .bmeHolder, .bmeHolder1, table.bmeMainColumn{{width:100% !important;}} }}        
+        @media only screen and (max-width: 480px){{.bmeImageCard table.bmeCaptionTable td.tblCell{{padding:0px 20px 20px 20px !important;}} }}        
+        @media only screen and (max-width: 480px){{.bmeImageCard table.bmeCaptionTable.bmeCaptionTableMobileTop td.tblCell{{padding:20px 20px 0 20px !important;}} }}        
+        @media only screen and (max-width: 480px){{table.bmeCaptionTable td.tblCell{{padding:10px !important;}} }}        
+        @media only screen and (max-width: 480px){{table.tblGtr{{ padding-bottom:20px !important;}} }}        
+        @media only screen and (max-width: 480px){{td.blk_container, .blk_parent, .bmeLeftColumn, .bmeRightColumn, .bmeColumn1, .bmeColumn2, .bmeColumn3, .bmeBody{{display:table !important;max-width:600px !important;width:100% !important;}} }}        
+        @media only screen and (max-width: 480px){{table.container-table, .bmeheadertext, .container-table {{ width: 95% !important; }} }}        
+        @media only screen and (max-width: 480px){{.mobile-footer, .mobile-footer a{{ font-size: 13px !important; line-height: 18px !important; }} .mobile-footer{{ text-align: center !important; }} table.share-tbl {{ padding-bottom: 15px; width: 100% !important; }} table.share-tbl td {{ display: block !important; text-align: center !important; width: 100% !important; }} }}        
+        @media only screen and (max-width: 480px){{td.bmeShareTD, td.bmeSocialTD{{width: 100% !important; }} }}        
+        @media only screen and (max-width: 480px){{td.tdBoxedTextBorder{{width: auto !important;}} }}    
+        @media only screen and (max-width: 480px){{th.tdBoxedTextBorder{{width: auto !important;}} }}    
+            
+        @media only screen and (max-width: 480px){{table.blk, table[name=tblText], .bmeHolder, .bmeHolder1, table[name=bmeMainColumn]{{width:100% !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeImageCard table.bmeCaptionTable td[name=tblCell]{{padding:0px 20px 20px 20px !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeImageCard table.bmeCaptionTable.bmeCaptionTableMobileTop td[name=tblCell]{{padding:20px 20px 0 20px !important;}} }}    
+        @media only screen and (max-width: 480px){{table.bmeCaptionTable td[name=tblCell]{{padding:10px !important;}} }}    
+        @media only screen and (max-width: 480px){{table[name=tblGtr]{{ padding-bottom:20px !important;}} }}    
+        @media only screen and (max-width: 480px){{td.blk_container, .blk_parent, [name=bmeLeftColumn], [name=bmeRightColumn], [name=bmeColumn1], [name=bmeColumn2], [name=bmeColumn3], [name=bmeBody]{{display:table !important;max-width:600px !important;width:100% !important;}} }}    
+        @media only screen and (max-width: 480px){{table[class=container-table], .bmeheadertext, .container-table {{ width: 95% !important; }} }}    
+        @media only screen and (max-width: 480px){{.mobile-footer, .mobile-footer a{{ font-size: 13px !important; line-height: 18px !important; }} .mobile-footer{{ text-align: center !important; }} table[class=""share-tbl""] {{ padding-bottom: 15px; width: 100% !important; }} table[class=""share-tbl""] td {{ display: block !important; text-align: center !important; width: 100% !important; }} }}    
+        @media only screen and (max-width: 480px){{td[name=bmeShareTD], td[name=bmeSocialTD]{{width: 100% !important; }} }}    
+        @media only screen and (max-width: 480px){{td[name=tdBoxedTextBorder]{{width: auto !important;}} }}    
+        @media only screen and (max-width: 480px){{th[name=tdBoxedTextBorder]{{width: auto !important;}} }}    
+                       
+        @media only screen and (max-width: 480px){{.bmeImageCard table.bmeImageTable{{height: auto !important; width:100% !important; padding:20px !important;clear:both; float:left !important; border-collapse: separate;}} }}                
+        @media only screen and (max-width: 480px){{.bmeMblInline table.bmeImageTable{{height: auto !important; width:100% !important; padding:10px !important;clear:both;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblInline table.bmeCaptionTable{{width:100% !important; clear:both;}} }}    
+        @media only screen and (max-width: 480px){{table.bmeImageTable{{height: auto !important; width:100% !important; padding:10px !important;clear:both; }} }}    
+        @media only screen and (max-width: 480px){{table.bmeCaptionTable{{width:100% !important;  clear:both;}} }}    
+        @media only screen and (max-width: 480px){{table.bmeImageContainer{{width:100% !important; clear:both; float:left !important;}} }}                
+        @media only screen and (max-width: 480px){{table.bmeImageTable td{{padding:0px !important; height: auto; }} }}                
+        @media only screen and (max-width: 480px){{img.mobile-img-large{{width:100% !important; height:auto !important;}} }}    
+        @media only screen and (max-width: 480px){{img.bmeRSSImage{{max-width:320px; height:auto !important;}} }}    
+        @media only screen and (min-width: 640px){{img.bmeRSSImage{{max-width:600px !important; height:auto !important;}} }}                
+        @media only screen and (max-width: 480px){{.trMargin img{{height:10px;}} }}              
+        @media only screen and (max-width: 480px){{div.bmefooter, div.bmeheader{{ display:block !important;}} }}      
+        @media only screen and (max-width: 480px){{.tdPart{{ width:100% !important; clear:both; float:left !important; }} }}    
+        @media only screen and (max-width: 480px){{table.blk_parent1, table.tblPart {{width: 100% !important; }} }}                
+        @media only screen and (max-width: 480px){{.tblLine{{min-width: 100% !important;}} }}                
+        @media only screen and (max-width: 480px){{.bmeMblCenter img {{ margin: 0 auto; }} }}       
+        @media only screen and (max-width: 480px){{.bmeMblCenter, .bmeMblCenter div, .bmeMblCenter span  {{ text-align: center !important; text-align: -webkit-center !important; }} }}    
+        @media only screen and (max-width: 480px){{.bmeNoBr br, .bmeImageGutterRow, .bmeMblStackCenter .bmeShareItem .tdMblHide {{ display: none !important; }} }}    
+        @media only screen and (max-width: 480px){{.bmeMblInline table.bmeImageTable, .bmeMblInline table.bmeCaptionTable, .bmeMblInline {{ clear: none !important; width:50% !important; }} }}    
+        @media only screen and (max-width: 480px){{.bmeMblInlineHide, .bmeShareItem .trMargin {{ display: none !important; }} }}    
+        @media only screen and (max-width: 480px){{.bmeMblInline table.bmeImageTable img, .bmeMblShareCenter.tblContainer.mblSocialContain, .bmeMblFollowCenter.tblContainer.mblSocialContain{{width: 100% !important; }} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStack&gt; .bmeShareItem{{width: 100% !important; clear: both !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeShareItem{{padding-top: 10px !important;}} }}                
+        @media only screen and (max-width: 480px){{.tdPart.bmeMblStackCenter, .bmeMblStackCenter .bmeFollowItemIcon {{padding:0px !important; text-align: center !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStackCenter&gt; .bmeShareItem{{width: 100% !important;}} }}    
+        @media only screen and (max-width: 480px){{ td.bmeMblCenter {{border: 0 none transparent !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeLinkTable.tdPart td{{padding-left:0px !important; padding-right:0px !important; border:0px none transparent !important;padding-bottom:15px !important;height: auto !important;}} }}    
+        @media only screen and (max-width: 480px){{.tdMblHide{{width:10px !important;}} }}                
+        @media only screen and (max-width: 480px){{.bmeShareItemBtn{{display:table !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStack td {{text-align: left !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStack .bmeFollowItem{{clear:both !important; padding-top: 10px !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStackCenter .bmeFollowItemText{{padding-left: 5px !important;}} }}    
+        @media only screen and (max-width: 480px){{.bmeMblStackCenter .bmeFollowItem{{clear:both !important;align-self:center; float:none !important; padding-top:10px;margin: 0 auto;}} }}                
+        @media only screen and (max-width: 480px){{    
+        .tdPart&gt; table{{width:100% !important;}}    
+        }}    
+        @media only screen and (max-width: 480px){{.tdPart&gt;table.bmeLinkContainer{{ width:auto !important; }} }}    
+        @media only screen and (max-width: 480px){{.tdPart.mblStackCenter&gt;table.bmeLinkContainer{{ width:100% !important;}} }}     
+        .blk_parent:first-child, .blk_parent{{float:left;}}                
+        .blk_parent:last-child{{float:right;}}                
+        &lt;/style&gt;
+        &lt;table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"" name=""bmeMainBody"" style=""background-color: #e6e6e8;"" bgcolor=""#e6e6e8""&gt;&lt;tbody&gt;&lt;tr&gt;  &lt;td width=""100%"" valign=""top"" align=""center""&gt;    
+        &lt;table cellspacing=""0"" cellpadding=""0"" border=""0"" name=""bmeMainColumnParentTable""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td name=""bmeMainColumnParent"" style=""border-collapse: separate;""&gt;    
+        &lt;table name=""bmeMainColumn"" class=""bmeHolder bmeMainColumn"" style=""max-width: 600px; overflow: visible;"" cellspacing=""0"" cellpadding=""0"" border=""0"" align=""center""&gt;  &lt;tbody&gt;&lt;tr id=""section_1"" class=""flexible-section"" data-columns=""1"" data-section-type=""bmePreHeader""&gt;&lt;td width=""100%"" class=""blk_container bmeHolder"" name=""bmePreHeader"" valign=""top"" align=""center"" bgcolor=""#e6e6e8"" style=""background-color: rgb(230, 230, 232); color: rgb(102, 102, 102);   ""&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td width=""100%"" class=""bmeHolder"" valign=""top"" align=""center"" name=""bmeMainContentParent"" style=""border-color: rgb(128, 128, 128); border-radius: 5px; border-collapse: separate; border-spacing: 0px;""&gt;     
+        &lt;table name=""bmeMainContent"" style=""border-radius: 5px; border-collapse: separate;border-spacing: 0px; overflow: hidden;"" width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0"" align=""center""&gt;&lt;tbody&gt;&lt;tr id=""section_2"" class=""flexible-section"" data-columns=""1""&gt;&lt;td width=""100%"" class=""blk_container bmeHolder"" name=""bmeHeader"" valign=""top"" align=""center"" bgcolor=""#ffffff"" style=""background-color: rgb(255, 255, 255);   ""&gt;&lt;div id=""dv_1"" class=""blk_wrapper"" style=""""&gt;    
+        &lt;table class=""blk"" name=""blk_image"" width=""600"" border=""0"" cellpadding=""0"" cellspacing=""0""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;    
+        &lt;table width=""100%"" cellspacing=""0"" cellpadding=""0"" border=""0""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=""bmeImage"" style=""padding: 20px; border-collapse: collapse;"" align=""center""&gt;&lt;a href=""https://clt.benchmarkurl.com/c/l?u=E9C124D&amp;amp;e=1548150&amp;amp;c=170BE2&amp;amp;t=0&amp;amp;email=4o2zQqfLDzo6vPNdpl7EN2ri%2BZ%2B9qN7SlQCqSmrsXQ3ClviSQtnhpzqCs0UbU5Lc&amp;amp;seq=1"" target=""_blank""&gt;&lt;img src=""https://images.benchmarkemail.com/client1510370/image13110237.png"" width=""142"" style=""max-width: 142px; display: block; border-radius: 0px;"" alt="""" data-radius=""0"" border=""0"" data-original-max-width=""142""&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+        &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+        &lt;/table&gt;&lt;/div&gt;
+        &lt;/td&gt;&lt;/tr&gt; &lt;tr id=""section_5"" class=""flexible-section"" data-columns=""2"" data-columns-ratio=""70/30""&gt;&lt;td width=""100%""&gt;     
+        &lt;table width=""100%"" class=""bmeHolder"" cellspacing=""0"" cellpadding=""0"" border=""0"" align=""center""&gt; &lt;tbody&gt;&lt;tr&gt; &lt;td width=""100%"" valign=""top"" name=""bmeBody"" align=""center"" bgcolor=""#ffffff"" style=""background-color: rgb(255, 255, 255); color: rgb(54, 56, 56); border-color: transparent; border-style: none; border-width: 0px;""&gt;   &lt;div&gt;    
+        &lt;table class=""blk_parent1"" cellspacing=""0"" cellpadding=""0"" style=""max-width: 600px;"" width=""600"" align=""center""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th valign=""top"" align=""center"" class=""tdPart"" width=""70%""&gt;      
+        &lt;table cellspacing=""0"" cellpadding=""0"" border=""0"" width=""100%"" class=""blk_parent"" align=""left"" style=""float:left;""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td valign=""top"" class=""blk_container bmeColumn1"" name=""bmeColumn1"" bgcolor="""" style=""color: rgb(54, 56, 56);   ""&gt;&lt;div id=""dv_2"" class=""blk_wrapper"" style=""""&gt;    
+        &lt;table class=""blk"" name=""blk_text"" width=""420"" border=""0"" cellpadding=""0"" cellspacing=""0""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;    
+        &lt;table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""100%"" class=""bmeContainerRow""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th valign=""top"" align=""center"" class=""tdPart""&gt;    
+        &lt;table name=""tblText"" style=""float:left;"" align=""left"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""tblText"" width=""420""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td name=""tblCell"" style=""padding: 10px; font-size: 14px; font-weight: 400; font-family: Arial, Helvetica, sans-serif; color: rgb(56, 56, 56); text-align: left; word-break: break-word;"" align=""left"" valign=""top"" class=""tblCell""&gt;&lt;div style=""line-height: 150%;""&gt;&lt;span style=""font-size: 20px; line-height: 150%;""&gt;&lt;strong&gt;&amp;nbsp; Dear [Caglar Hekimci],&lt;/strong&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+        &lt;/table&gt;&lt;/th&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+        &lt;/table&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;    
+        &lt;/table&gt;&lt;/div&gt;
+        
+        &lt;div id=""dv_4"" class=""blk_wrapper"" style=""""&gt;    
+        &lt;table class=""blk"" name=""blk_text"" width=""420"" border=""0"" cellpadding=""0"" cellspacing=""0""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;    
+        &lt;table cellpadding=""0"" cellspacing=""0"" border=""0"" width=""100%"" class=""bmeContainerRow""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th valign=""top"" align=""center"" class=""tdPart""&gt;    
+        &lt;table name=""tblText"" style=""float:left;"" align=""left"" border=""0"" cellpadding=""0"" cellspacing=""0"" class=""tblText"" width=""420""&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td name=""tblCell"" style=""padding: 10px 20px; font-size: 14px; font-weight: 400; font-family: Arial, Helvetica, sans-serif; color: rgb(56, 56, 56); text-align: left; word-break: break-word;"" align=""left"" valign=""top"" class=""tblCell""&gt;&lt;div style=""line-height: 150%;""&gt;
+         "</value>
+  </data>
+</root>

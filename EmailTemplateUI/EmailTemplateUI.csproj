@@ -18,4 +18,20 @@
     <PackageReference Include="MimeKit" Version="3.4.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Resources\TemplateHeaderAndFooter.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TemplateHeaderAndFooter.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\TemplateHeaderAndFooter.resx">
+      <CustomToolNamespace>TemplateResource</CustomToolNamespace>
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>TemplateHeaderAndFooter.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
 </Project>

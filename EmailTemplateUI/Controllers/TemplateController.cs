@@ -1,10 +1,6 @@
 ﻿using EmailTemplateUI.Models;
 using EmailTemplateUI.Services;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
-using System.IdentityModel.Tokens.Jwt;
-using System.Text.Json;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace EmailTemplateUI.Controllers
 {

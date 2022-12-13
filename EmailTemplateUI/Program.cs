@@ -1,11 +1,15 @@
 using EmailTemplateUI.Services;
+using Microsoft.EntityFrameworkCore;
+using EmailTemplateUI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<ITemplatesDB, TemplatesDB>();
+builder.Services.AddTransient<ITemplatesDB, TemplatesDB>();
 
 var app = builder.Build();
 

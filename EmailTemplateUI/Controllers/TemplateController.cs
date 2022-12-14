@@ -6,11 +6,12 @@ namespace EmailTemplateUI.Controllers
 {
     public class TemplateController : Controller
     {
-        public static Template _template;
-        private readonly ITemplatesDB _dbContext;
-        public TemplateController(ITemplatesDB dbContext)
+        private readonly ITemplatesDB _templateService;
+        private readonly EmailTemplatesContext _context;
+        public TemplateController(ITemplatesDB templateService, EmailTemplatesContext context)
         {
-            _dbContext = dbContext;
+            _templateService = templateService;
+            _context = context;
         }
 
         public IActionResult Index()
@@ -21,15 +22,9 @@ namespace EmailTemplateUI.Controllers
         [HttpPost]
         public IActionResult Get(int id)
         {
-            try
-            {
-                _template = _dbContext.Get(id);
-            }
-            catch (Exception Ex)
-            {
+            Template _template = _context.Templates.FirstOrDefault(x => x.Id == id) ?? 
+                                 new Template() { ErrorMessage = "template not found " };
 
-                _template.ErrorMessage = Ex.Message;
-            }
             ViewData["templateInfo"] = _template;
             return Json(_template);
         }
@@ -37,9 +32,10 @@ namespace EmailTemplateUI.Controllers
         [HttpPost]
         public IActionResult Save(Template newHtml, int id)
         {
+            Template _template = new Template();
             try
             {
-                _template.ErrorMessage = _dbContext.Save(newHtml, id);
+                _template.ErrorMessage = _templateService.Save(newHtml, id);
             }
             catch (Exception Ex)
             {

@@ -4,7 +4,13 @@ using EmailTemplateUI.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+IConfiguration config = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .Build();
+
+var connectionString = config.GetConnectionString("DBConnection");
+builder.Services.AddDbContext<EmailTemplatesContext>(option => option.UseSqlServer(connectionString));
+//builder.Services.AddDbContext<EmailTemplatesContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

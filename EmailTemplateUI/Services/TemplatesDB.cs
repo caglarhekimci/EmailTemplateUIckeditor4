@@ -10,7 +10,12 @@ namespace EmailTemplateUI.Services
 
         SqlConnection sqlCon = new SqlConnection("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EmailTemplates;Integrated Security=True");
         SqlCommand sqlCom = null;
-        Template _template = new Template();
+        Template _template = new Template(); // GET RID OF FROM 11-12-13
+        private readonly EmailTemplatesContext _context;
+        public TemplatesDB(EmailTemplatesContext context)
+        {
+            _context = context;
+        }
 
         public Template Get(int id)
         {
@@ -18,38 +23,46 @@ namespace EmailTemplateUI.Services
             var header = TemplateResource.TemplateHeaderAndFooter.templateHeader;
             var footer = TemplateResource.TemplateHeaderAndFooter.templateFooter;
 
-            try
-            {
-                sqlCon.Open();
-                // TODO : REACH SQL WITH DIFFERENT WAY
-                string sql = "SELECT * FROM dbo.templates WHERE id = " + id;
-                sqlCom = new SqlCommand(sql, sqlCon);
-                SqlDataReader reader = sqlCom.ExecuteReader();
+            Template _template = _context.Templates.FirstOrDefault(x => x.Id == id) ?? 
+                                 new Template() { ErrorMessage = "template not found " };
 
-                while (reader.Read())
-                {
-                    _template.Id = Convert.ToInt32(reader["id"]);
-                    _template.TemplateName = WebUtility.HtmlDecode(reader["templateName"].ToString());
-                    _template.EmailHtml = WebUtility.HtmlDecode(reader["emailHTML"].ToString());
-                    _template.ErrorMessage = WebUtility.HtmlDecode(reader["message"].ToString());
-                    _template.CreatedAt = Convert.ToDateTime(reader["created_at"].ToString());
-                    _template.PreviewTemplate = WebUtility.HtmlDecode(reader["previewTemplate"].ToString());
-                }
+            if (_template.EmailHtml != null)
+            {
+                _template.PreviewTemplate = header + _template.EmailHtml + footer;
+            }
 
-                if (_template.EmailHtml != null)
-                {
-                    _template.PreviewTemplate = header + _template.EmailHtml + footer;
-                }
-            }
-            catch (Exception Ex)
-            {
-                _template.ErrorMessage = Ex.Message;
-            }
-            finally
-            {
-                sqlCom.Dispose();
-                sqlCon.Close();
-            }
+            //try
+            //{
+            //    sqlCon.Open();
+            //    // TODO : REACH SQL WITH DIFFERENT WAY
+            //    string sql = "SELECT * FROM dbo.templates WHERE id = " + id;
+            //    sqlCom = new SqlCommand(sql, sqlCon);
+            //    SqlDataReader reader = sqlCom.ExecuteReader();
+
+            //    while (reader.Read())
+            //    {
+            //        _template.Id = Convert.ToInt32(reader["id"]);
+            //        _template.TemplateName = WebUtility.HtmlDecode(reader["templateName"].ToString());
+            //        _template.EmailHtml = WebUtility.HtmlDecode(reader["emailHTML"].ToString());
+            //        _template.ErrorMessage = WebUtility.HtmlDecode(reader["message"].ToString());
+            //        _template.CreatedAt = Convert.ToDateTime(reader["created_at"].ToString());
+            //        _template.PreviewTemplate = WebUtility.HtmlDecode(reader["previewTemplate"].ToString());
+            //    }
+
+            //    if (_template.EmailHtml != null)
+            //    {
+            //        _template.PreviewTemplate = header + _template.EmailHtml + footer;
+            //    }
+            //}
+            //catch (Exception Ex)
+            //{
+            //    _template.ErrorMessage = Ex.Message;
+            //}
+            //finally
+            //{
+            //    sqlCom.Dispose();
+            //    sqlCon.Close();
+            //}
             return _template;
         }
 

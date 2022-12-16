@@ -2,8 +2,8 @@
 @{
     var templateInfo = ViewData["templateInfo"] as EmailTemplateUI.Models.Template;
 }
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 @*CKEDITOR 4*@
 <script src="~/ckeditor/ckeditor.js"></script>
 <script src="~/ckeditor/config.js"></script>
@@ -38,7 +38,7 @@
                     <button class="buttonSave" style="vertical-align:middle" id="btnSet"><span>Save</span></button>
 
                     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                    @*TODO : SCROLLS DOWN SLOWLY *@
+                    @*TODO : SCROLLS DOWN SLOWLY AND ALSO SCROLLS UP BUTTON*@
                     <button class="buttonSave" style="width:150px; height:40px; color:#FFFFFF; background-color:green"
                             onClick="document.getElementById('middle').scrollIntoView();">
                         Preview &nbsp;<i class="arrowDown"></i>
@@ -57,7 +57,6 @@
             CKEDITOR.replace('myEditor', { height: 600 });
             CKEDITOR.replace('myPreviewEditor', { height: 1000 });
         });
-
         $('#btnSet').click(function ajaxSetTemplate() {
             var select = document.getElementById('mySelect');
             var mySelectedId = select.options[select.selectedIndex].value;
@@ -79,7 +78,6 @@
         $('select').on('change', function () {
             GetTemplates();
         });
-
         function GetTemplates() {
             var select = document.getElementById('mySelect');
             var mySelectedId = select.options[select.selectedIndex].value;
